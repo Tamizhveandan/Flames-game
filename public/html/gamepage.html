@@ -1,0 +1,45 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title> bangtanflames </title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href ="../css/style.css"/>
+        <link rel="page" href =".index.html"/>
+        <link rel="page2" href="../html/answer.html"/>
+        <link rel="icon" href="../image/favicon3.ico"/>
+        <!-- update the version number as needed -->
+     
+        
+    </head>
+    <body id="wallpaper">
+        <h1 id="output"></h1>
+        <H2 id="entername1"></H2>
+        <h2 id="entername2"></h2> 
+        <main>
+            <form id="gamepage" onsubmit="return checkNames()" action="../html/answer.html" >
+                <i class="fa-solid fa-child"></i>
+                <label for="name1">ENTER THE FIRST NAME:</label><br/>
+                <input type="text" id="name1" name="name1" placeholder="ENTER THE NAME"><br/>
+                <label id="errorname1" style="visibility:hidden;color:red ;">ENTER THE NAME ABOVE:</label><br/>
+                <i class="fa-solid fa-child-dress"></i>
+                <label for="name2">ENTER THE SECOND NAME:</label><br/>
+                <input type="text" id="name2" name="name2" placeholder="ENTER THE NAME"/><br/><br/>
+                <label id="errorname2" style="visibility:hidden;color:red ;">ENTER THE NAME ABOVE:</label><br/>
+                <label style="color: red;">
+                    <i class="fa-solid fa-gamepad"></i>
+                    
+                </label>
+                <input id="submit" type="submit" value="Let's find"/>
+               
+                
+            </form>  
+        </main>
+        <script src="https://kit.fontawesome.com/7c33853e75.js" crossorigin="anonymous"></script>
+        
+        <script src="../js/userinput.js"></script>
+        <footer><a href="../html/rules.html"><i class="fa-solid fa-scroll fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;" >PAGE INFO</i></a></footer>
+
+    </body>
+    
+</html>

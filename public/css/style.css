@@ -1,0 +1,180 @@
+body{
+    background-image: url(../image/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+form {
+    color : rgb(13, 196, 203);
+    text-align:center;
+    border: 0%;;
+    border-width: 5px 5px 5px 5px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 750px;
+    padding: 25px;
+    
+}
+#input{
+    font-size: 40px;
+}
+
+h1{
+    color:rgba(205, 26, 6, 0.862);
+    text-decoration: double;
+    text-align: center;
+}
+
+
+input[type="text"],select{
+    width : 80%;
+    padding : 15px;
+    margin: 8px ;
+    border-radius: 40px;
+    box-sizing : border-box;
+    display: inline-block;
+    border :5px;
+    
+}
+input[type="submit"]{
+    width:80%;
+    background-color: rgb(155, 12, 103);
+    cursor: pointer;
+    padding: 10px 10px;
+    color: rgb(18, 18, 214);
+    font-family:"Sofia", sans-serif;
+    font-size: medium;
+    border-radius: 40px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(203, 173, 21);
+}
+
+#submit{
+    width:75%;
+    background-color: rgb(226, 226, 16);
+    cursor: pointer;
+    padding: 10px 10px;
+    color: rgb(214, 18, 31);
+    font-family:"Sofia", sans-serif;
+    font-size: medium;
+    border-radius: 40px;
+    
+
+}
+#submit:hover{
+    background-color: blueviolet;
+}
+
+#gamepage{
+    color : rgb(216, 213, 11);
+    text-align:center;
+    border:0ch;
+    border-width: 5px 5px 5px 5px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 25px;
+}
+#wallpaper{
+    background-image: url(../image/gamepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#username{
+    color: rgb(97, 14, 206);
+}
+
+
+a:link {
+    color: red;
+}
+  
+  /* visited link */
+a:visited {
+    color: green;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: hotpink;
+}
+  
+  /* selected link */
+a:active {
+    color: blue;
+}
+footer,a {
+    font-size: large;
+    font-family: fantasy;
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    margin-left: 45%;
+    text-align: center;
+ }
+ #responsiveWarning{
+    color:rgb(255, 204, 0);
+    visibility: hidden;
+    font-size: small;
+    position:relative;
+    bottom: 0%;
+    left : 0%;
+    
+ }
+
+@media only screen and (max-width:600px){
+
+    body{
+    background-image: url(../image/mobilewallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y:auto;
+    
+}
+form {
+    color : rgb(13, 196, 203);
+    text-align:center;
+    border: 0%;;
+    border-width: 5px 5px 5px 5px;
+    margin-top: 70%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+#wallpaper{
+    background-image: url(../image/narutowallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#gamepage{
+    color : rgb(11, 216, 172);
+    text-align:center;
+    border:0ch;
+    border-width: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+#responsiveWarning{
+    visibility: visible;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    /* bottom: 0%; */
+    left : 10%;
+}
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: url(../image/682562.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: inline;
+}
+.list{
+    color: rgb(255, 0, 234);
+    margin-left: 50px;
+    font-size: large;
+    display: inline;
+    
+}
+#order{
+    color: rgb(255, 162, 0);
+}
+#logopic{
+    width: 200px;
+}
+div{
+    display: inline;
+}
+#contact{
+    display: inline;
+    color: palevioletred;
+    margin-left: 800px;
+   
+}
+footer{
+    color: aqua;
+   
+    font-size: larger;
+    word-spacing: 250px;
+   
+}
+h3{
+   
+    display: inline-block;
+  
+}
+#goback{
+        width:10%;
+        background-color: rgb(155, 12, 103);
+        cursor: pointer;
+        padding: 10px 10px;
+        color: rgb(211, 214, 18);
+        font-family:"Sofia", sans-serif;
+        font-size: medium;
+        border-radius: 40px;
+        display: inline;
+        margin-left: 80%;
+        bottom: 0%;
+    }
+#goback:hover{
+        background-color: rgb(21, 203, 36);
+    }
+
+@media only screen and (max-width : 600px){
+
+    body{
+        background-image: url(../image/mobilecontactinfo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y:auto;
+        display: inline;
+    }
+    #goback{
+        width : 30%;
+        margin-left: 70%;
+    }
+}

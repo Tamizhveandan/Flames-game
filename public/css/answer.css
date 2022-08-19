@@ -1,0 +1,131 @@
+
+
+#friend{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(23, 221, 13);
+}
+#love{
+    font-size: 40px;
+    text-align: right;   
+    padding: 5%;
+    margin-top: 10%;
+    color: rgb(224, 179, 16);
+    
+}
+#affection{
+    font-size: 40px;
+    text-align:right;   
+    margin-top: 10%;
+    color: rgb(30, 224, 221);
+}
+#marriage{
+   
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;   
+   
+    color: rgb(201, 22, 217);
+    
+    
+}
+#enemy{
+    font-size: 70px;
+    text-align: right;   
+    margin-top: 50px;
+
+    color: rgb(216, 19, 19);
+}
+#sister{
+    font-size: 40px;
+    text-align: left;   
+    margin-top: 5%;
+    color: rgb(56, 30, 224);
+}
+#exitpage{
+    background-image: url(../image/affection2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(201, 22, 201);
+    font-size: xx-large;
+    font-style: oblique;
+    margin-top: 200px;
+    
+    
+}
+#try{
+    width: 120px;
+    background-color: rgb(41, 226, 16);
+    cursor: pointer;
+    padding: 10px 10px;
+    color: rgb(214, 18, 198);
+    font-family:"Sofia", sans-serif;
+    font-size: medium;
+    border-radius: 40px;
+}
+#try:hover{
+    background-color: rgb(216, 115, 15);
+}
+#exit{
+    width: 120px;
+    background-color: rgb(226, 16, 62);
+    cursor: pointer;
+    padding: 10px 10px;
+    color: rgb(34, 18, 214);
+    font-family:"Sofia", sans-serif;
+    font-size: medium;
+    border-radius: 40px;
+}
+#exit:hover{
+    background-color: rgb(208, 174, 22);
+}
+footer{
+    color: rgba(12, 190, 68, 0.921);
+    text-align: end;
+    text-align:right ;
+    display: block;
+    position: fixed;
+    
+    bottom: 0px;
+    width: 95%;
+    /* Height of the footer*/
+    height: auto;
+
+    
+}
+div{
+    margin-top: 250px;
+    margin-left: 300;
+}
+h6{
+    display: inline;
+}
+
+@media only screen and (max-width:600px){
+    #friend{
+        font-size: larger;
+    }
+    #affection,#answertext{
+        color: rgb(226, 24, 216);
+    }
+    
+    #marriage,#answertext{
+        margin-top: 65%;
+    }
+    #exitpage{
+    background-image: url(../image/mobileexit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : rgb(201, 22, 82);
+    font-size: 100%;
+    margin-top: 100%;
+    
+    } 
+    div{
+        margin-top: 60%;
+        margin-left: 30;
+    }
+   
+   
+}
